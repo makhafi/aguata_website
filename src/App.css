@@ -1,0 +1,113 @@
+.header{
+  font-size: 40px;
+  text-shadow: 1px 6px black;
+  font-family:'Courier New', Courier, monospace;
+  color: orange;
+  position: relative;
+  left: 40px;
+}
+
+
+a{
+  position: relative;
+  left: 550px;
+  font-size: 25px;
+  font-family: cursive;
+}
+
+a,.header,.pic,.button,img{
+  margin: 1px;
+}
+
+span{
+  color: white;
+}
+
+
+
+
+.pic {
+  width: 70%;
+  height: 15vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.button {
+  position: relative;
+  left: 10px;
+  height: 80px;
+  top: 80px;
+  width: 150px;
+  background:orangered;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.button:before {
+  content: "";
+  width: 25px;
+  height: 2px;
+  background: slategray;
+  position: absolute;
+  top: 50%;
+  margin-top: -1px;
+  right: 24px;
+  transition: all 0.3s ease;
+}
+
+.button:hover:before {
+  right: 34px;
+  width: 35px;
+}
+
+.button:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-color: transparent transparent transparent #000000;
+  position: absolute;
+  top: 50%;
+  margin-top: -5px;
+  right: 20px;
+  transition: all 0.3s ease;
+}
+
+.button:hover:after {
+  right: 34px;
+  right: 30px;
+}
+
+body{
+  background-image: url(./startpagelion.jpg);
+  height: 500px;
+}
+
+img{
+  width: 300px;
+  height: 300px;
+  position: relative;
+  left: 1000px;
+  bottom: 130px;
+  border-radius: 30px;
+}
+
+.saflag{
+  width: 60px;
+  height: 80px;
+  left: 630px;
+  z-index: 20;
+  position: relative;
+  top: 450px;
+}
+
+.header-container,.saflag,.header{
+  position:absolute;
+  bottom: 200px;
+}
+
+
+

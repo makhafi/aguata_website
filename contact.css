@@ -1,0 +1,54 @@
+h1{
+    font-size: 50px;
+    color: whitesmoke;
+    position: relative;
+    left: 300px;
+    top: 50px;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+span{
+    color: white;
+    position: relative;
+    top: 250px;
+    left: 100px;
+}
+
+.phone{
+    position: relative;
+    top: 330px;
+    left: -290px;
+}
+
+.contactnumber{
+    position:relative;
+    top:330px;
+    left:-280px;
+}
+
+.email {
+    font-size: 15px;
+    position: relative;
+    left: 110px;
+    color: white;
+}
+
+button{
+    height: 65px;
+    width: 120px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+button:hover{
+    color: orangered;
+}
+
+
+
+
