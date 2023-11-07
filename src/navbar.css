@@ -1,0 +1,25 @@
+nav{
+    display: flex;
+    gap: 200px;
+    position: relative;
+    top: 0px;
+    right: 290px;
+}
+
+.nav-links{
+    color: whitesmoke;
+    position: relative;
+    bottom:40px ;
+    margin: 2px;
+}
+
+.nav-links:hover{
+    color: orange;
+}
+
+.nav-container{
+    display: flex;
+    gap: 80px;position: relative;
+    right: 500px;
+
+}

@@ -1,0 +1,45 @@
+h1{
+    font-size: 40px;
+    color: white;
+    position: relative;
+    left: 540px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+span{
+    position: relative;
+    top: 200px;
+    left: 450px;
+}
+
+.locationmap{
+    position: relative;
+    top: 280px;
+    left: 230px;
+}
+
+p{
+    position: relative;
+    top: 530px;
+    color: white;
+    right: 280px;
+}
+
+button{
+    position: relative;
+    right: 300px;
+    height: 60px;
+    top: 320px;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+
+
+  

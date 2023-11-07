@@ -1,0 +1,39 @@
+
+h1{
+    color: whitesmoke;
+    font-size: 80px;
+    font-weight: bold;
+    position: relative;
+    bottom: 10px;
+    position: relative;
+    margin: 15vh auto;
+    color: white;
+    font-family: impact, sans-serif;
+    font-size: 25vw;
+    letter-spacing: 0.05em;
+    background-image: var(--metal-tex);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image-item{
+    width: 350px;
+    height: 250px;
+    border-radius: 20px;
+    position: relative;
+    top: 40px;
+}
+
+.team-image-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
